@@ -4,12 +4,12 @@
 
 ---
 
-#Create an iOS plugin for Unity
+# Create an iOS plugin for Unity
 
-###- Goal:
+### - Goal:
     Create an iOS plugin for Unity, so that both Unity and Xcode can communicate with each other.
     
-###- Steps:
+### - Steps:
 - Create extern code files in Xcode, for example: "UnityBridge.h", "UnityBridge.m"
 
 - Write the extern function(s) in these two files, either in the implementation block or not. And **NO NEED** for add “ extern ‘C’ ” as the Unity official document says. Weird error will comes out if you add “extern ‘C’”
